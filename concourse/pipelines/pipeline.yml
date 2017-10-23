@@ -2518,7 +2518,7 @@ jobs:
       - MM_pt-rebuild
       - MM_gpinitstandby
       - MM_gp_upgrade
-    - MM_gppkg
+      - MM_gppkg
       - MM_gprecoverseg
       trigger: true
     - get: bin_gpdb_centos6
@@ -2530,7 +2530,7 @@ jobs:
       - MM_gpcheck
       - MM_pt-rebuild
       - MM_gpinitstandby
-    - MM_gp_upgrade
+      - MM_gp_upgrade
       - MM_gppkg
       - MM_gprecoverseg
     # Not used by icw group, but is passed through
